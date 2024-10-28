@@ -193,7 +193,7 @@ if __name__ == '__main__':
         gamePath = Path(gamePath).absolute()
 
         msg = '{}路径不存在,程序退出'
-        if not installLogsPath.exists():
+        if is_win() and not installLogsPath.exists():
             logger.error(msg.format('插件安装文件夹'))
             pause(True)
         if not gamePath.exists():
