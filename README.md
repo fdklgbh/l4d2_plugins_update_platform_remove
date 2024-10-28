@@ -1,0 +1,2 @@
+# l4d2_plugins_update_platform_remove
+求生之路2 Windows插件平台更新(手动指定新旧版本) 以及Linux清除所有插件文件
